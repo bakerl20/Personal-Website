@@ -1,0 +1,128 @@
+#firstspan{
+    background-color:rgb(255, 0, 179);
+}
+
+.list{
+    background:red;
+}
+
+#text{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    margin-left: 80px;
+    text-indent: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 200;
+    
+}
+
+#pic{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#sub{
+    margin-left: 20px;
+    font-weight: bold;
+    font: 100;
+}
+
+#h1{
+    text-indent:10px;
+    background:rgb(147, 130, 130);
+}
+
+#subhead{
+    text-indent:2.5%;
+}
+
+#back{
+    background: beige;
+}
+#back2{
+    background: rgb(147, 130, 130);
+}
+#back3{
+    background: rgb(184, 164, 164);
+}
+.fill{
+    background-color: beige;
+}
+
+#text2{
+    margin-top:5px;
+    margin-left:150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 200;
+
+}
+#left{
+    margin-left:375px;
+}
+#first{
+    margin-left:20px;
+}
+#subleft{
+    margin-left:155px;
+}
+#subleft2{
+    margin-left:200px;
+}
+#text3{
+    margin-top:5px;
+    margin-left:110px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+}
+#contact{
+    margin-top:5px;
+    margin-left:600px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font:400;
+}
+#contacts{
+    margin-top:5px;
+    margin-left: 450px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#footer{
+    background-color: rgb(184, 164, 164);
+}
+#text4{
+    margin-left:135px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font:400;
+    font-size: small;
+}
+#subleft3{
+    margin-left: 200px;
+}
+
+#subleft4{
+    margin-left: 160px;
+
+}
+#subleft5{
+    margin-left: 170px;
+
+}
+#pic{
+    display: flex;
+    @media(min-width:900px){p{color:red;}}
+}
+.column {
+    float: left;
+    width: 27.5%;
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column2 {
+    float: left;
+    width: 20%;
+}
+  
